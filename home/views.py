@@ -10,13 +10,13 @@ def home(request):
 
 def about(request):
     # return HttpResponse("This is my about (/about)")
-    context = {'name': 'Michael', 'course': 'Django'}
-    return render(request, 'about.html', context)
+    # context = {'name': 'Michael', 'course': 'Django'}
+    return render(request, 'about.html')
 
 
 def projects(request):
     # return HttpResponse("This is my projects (/projects)")
-    return render(request, 'projects.html')
+    return render(request, 'recreation.html')
 
 
 def contact(request):
